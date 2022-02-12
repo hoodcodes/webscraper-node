@@ -1,7 +1,7 @@
 const PORT = 7777;
 const axios = require('axios');
-const axios = require('cheerio');
-const axios = require('express');
+const cheerio = require('cheerio');
+const express = require('express');
 
 const app = express();
 
