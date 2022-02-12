@@ -1,0 +1,36 @@
+//VS Code Settings for this Project
+{
+  "editor.renderWhitespace": "none",
+  "editor.tokenColorCustomizations": {
+    "comments": "#b3ff00"
+  },
+  "terminal.integrated.fontSize": 12,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.options": {
+    "rules": {
+      "import/default": "error",
+      "import/export": "error",
+      "import/named": "error",
+      "import/namespace": "error",
+      "import/no-duplicates": "error",
+      "import/no-named-as-default": "error",
+      "import/no-named-as-default-member": "error",
+      "import/no-unresolved": "error"
+    }
+  },
+  "javascript.format.enable": false,
+  "workbench.statusBar.visible": true,
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#4093ff",
+    "statusBar.background": "#2f0cf3"
+  },
+  "window.zoomLevel": 2,
+  "editor.tabSize": 2,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "editor.formatOnSave": true
+}
